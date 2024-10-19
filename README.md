@@ -17,8 +17,9 @@ Write a program to implement the Gale-Shapley algorithm (also known as the Defer
 
 ## Input:
    - An integer n, representing the number of boys and girls.
-   - A 2D list 'boy_preferences', where each element is a list of size n representing a boy's ranked preferences for the girls. Each list contains integers from 1 to n, representing the girls.
-   - A 2D list 'girl_preferences', where each element is a list of size n representing a girl's ranked preferences for the boys. Each list contains integers from 1 to n, representing the boys.
+   - A 2D list 'boy_preferences',** [[1, 2, 3], [2, 1, 3], [1, 2, 3]] ** where each element is a list of size n representing a boy's ranked preferences for the girls. Each list contains integers from 1 to n, representing the girls.
+     
+   - A 2D list 'girl_preferences',** [[2, 1, 3], [1, 3, 2], [3, 1, 2]] ** where each element is a list of size n representing a girl's ranked preferences for the boys. Each list contains integers from 1 to n, representing the boys.
 
 ## Output:
    - A list of size n, where each element (b, g) represents that boy b is married to girl g. This output should ensure that there are no unstable pairs, meaning the solution is stable.
